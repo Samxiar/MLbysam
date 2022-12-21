@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(161, 95, 95);
+}
+
+.fullScreenFrame > div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
