@@ -55,8 +55,8 @@ st.bar_chart(price_dist)
 # Feature 
 st.title('Features')
 st.text('''
-So this data set is collected for completing a college project ,which is an android
-app for calculating the price of  houses.This data  is  scraped  from  magic bricks 
+So this data set is collected for completing a academic project ,which is a web
+app for calculating the price of  houses. This data  is  scraped  from  magic bricks 
 website between june  2021 and july  2021. With the  help of the data available one 
 can make a regression model to predict house prices.
 ''')
