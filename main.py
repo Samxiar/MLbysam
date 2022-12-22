@@ -11,7 +11,7 @@ import numpy as np
 
 
 # Page Config 
-st.set_page_config(page_title='Dash', page_icon='👽', initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title='Dash', page_icon='👽')
 
 # Branding
 st.title("ML Modeling with Sam 👽")
@@ -22,8 +22,7 @@ the algorithm takes some data as input and predicts the price. ''')
 
 st.write('##')
 st.write('##')
-st.write('##')
-st.write('##')
+
 # Dataset Part
 def get_main_data(filename):
     df=pd.read_csv(filename)
