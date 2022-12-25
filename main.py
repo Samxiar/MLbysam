@@ -105,8 +105,7 @@ with model_training:
     prediction=reg.predict([[area,bedrooms,bathrooms,parking,lift]])
     out_put.text('The Price that the Model Predicted was')
     if ok == True:
-        p = out_put.title(int(prediction))
-        print(p)
+        out_put.title(f"₹{int(prediction)}")
 
 st.write("##")
 st.write("##")
