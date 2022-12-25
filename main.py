@@ -11,7 +11,7 @@ import numpy as np
 
 
 # Page Config 
-st.set_page_config(page_title='Dash', page_icon='👽')
+st.set_page_config(page_title='Dash', page_icon='👽',layout="wide")
 hide_st_style = """
             <style>
             
@@ -22,7 +22,7 @@ hide_st_style = """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
 # Branding
-st.title("ML Modeling with Sam 👽")
+st.title("ML Modeling with Sam")
 st.text('''
 This is a Data Science Project on House Price Prediction 
 using the Multi-Variate Linear Regression Algorithm. Inshort
