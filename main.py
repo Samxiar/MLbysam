@@ -59,7 +59,7 @@ df=get_main_data('mumbai.csv')
 price_dist = pd.DataFrame(df['price'].tail(1000))
 st.subheader('Houseprice Trends')
 st.bar_chart(price_dist)
-st.subheader('Seeing the Trend, the highest cost for a residential apartment in mumbai goes nearly ₹40 - 100 Crore :/')
+st.subheader('Seeing the Trend, the highest cost for a residential apartment in mumbai goes nearly ₹40 - 100 Crores:/')
 st.text('''It would take 120 years of salaries for an average Salaried Indian to buy this house.
 Mumbai is really Expensive.''')
 
